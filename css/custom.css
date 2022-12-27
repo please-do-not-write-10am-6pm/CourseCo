@@ -1,0 +1,57 @@
+.page-container {
+  padding-top: 1rem;
+}
+a:active,
+a:focus.clicked {
+  z-index: 2;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.mobile-menu-top {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.mobile-menu-top-heading {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+  padding: 0 1.5rem;
+}
+.mobile-menu-back {
+  border-radius: 0.25em;
+  margin-left: -0.625em;
+  margin-right: 0.375em;
+  padding: 0.5em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.mobile-menu-top strong {
+  color: #0074cc;
+  color: var(--primary);
+  font-weight: 400;
+}
+.mobile-menu-list ul {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mobile-menu .plugin-menu-icon,
+.sidebar-menu-plugins .plugin-menu-icon,
+.sidebar-menu-active-sublist .icon-color-outline,
+.sidebar-menu-active-sublist .svg-sprite {
+  color: var(--primary);
+  fill: var(--primary);
+}
+.list-group-items {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+}
