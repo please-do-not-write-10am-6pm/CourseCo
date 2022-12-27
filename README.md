@@ -1,3 +1,1 @@
 # Personal Site
-
-## Martyn Kucharski
